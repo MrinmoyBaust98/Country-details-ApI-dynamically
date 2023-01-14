@@ -1,0 +1,27 @@
+.head-title{
+    text-align: center;
+    color: rgb(92, 22, 62);
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.div-style{
+    background-color: rgb(198, 183, 160);
+    border: 2px solid rgb(110, 140, 203);
+    padding: 3px;
+    padding-left: 16px;
+    margin-top: 6px ;
+    border-radius: 5px;
+    color: rgb(35, 35, 141);
+}
+#short-details{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 8px;
+}
+.div-con{
+    display: flex;
+    justify-content: center;
+    
+}
